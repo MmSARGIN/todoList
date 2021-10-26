@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #send {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+      #list {
+        text-align: center;
+        }
+        #main {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          margin-left: 350px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <form id="send">
+        <input type="text" id="info" />
+        <button id="subbtn" type="submit">Ekle</button>
+        <button id="reset" type="button">Sıfırla</button>
+      </form>
+      <ul id="list"></ul>
+    </div>
+    <script src="todolist.js"></script>
+  </body>
+</html>
